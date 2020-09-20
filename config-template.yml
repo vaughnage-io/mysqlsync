@@ -1,0 +1,31 @@
+# Source Server
+source:
+  host: "10.0.0.1"
+  username: "user"
+  password: "password"
+  port: "3306"
+  db: "db_name"
+  tbl1: "source_table"
+
+
+# Destination Server
+destination:
+  host: "10.0.0.2"
+  username: "user"
+  password: "password"
+  port: "3306"
+  db: "db_name"
+  tbl1: "destination_table"
+
+
+# Email
+mail:
+  host: "smtp.example.com"
+  port: "25"
+  from: "server@example.com"
+  user: "smtpuser"
+  password: "smtppassword"
+  to: 
+  - "recepient1@example.com"
+  - "recepient2@example.com"
+  subject: "MySQL Sync Status"
